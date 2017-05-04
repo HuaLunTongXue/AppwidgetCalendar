@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="250dp"
+    android:minHeight="320dp"
+    android:resizeMode="none"
+    android:previewImage="@mipmap/calendar_72"
+    android:initialLayout="@layout/widget_layout"
+    android:updatePeriodMillis="1800000"
+    />
+
+    <!--计算size的公式: (70*n) -30  n为部件所需的大小(占几格) -->
+
